@@ -1,2 +1,3 @@
-while True:
-    print(float(eval(input(""))))
+def calculator():
+    while True:
+        print(float(eval(input(""))))
