@@ -1,1 +1,2 @@
-print(float(eval(input())))
+while True:
+    print(float(eval(input(""))))
