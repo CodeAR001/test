@@ -189,7 +189,7 @@ def order():
                         print(random.choice(feedback_phrases_invalid))
             else:
                 balance_range_messages = {
-                    (0, 19): f"{random.choice(feedback_phrases_ibalance)} You can only choose order #1.",
+                    (10, 19): f"{random.choice(feedback_phrases_ibalance)} You can only choose order #1.",
                     (20, 39): f"{random.choice(feedback_phrases_ibalance)} You can only choose order #1 and #2.",
                     (40, 59): f"{random.choice(feedback_phrases_ibalance)} You can only choose order #1, #2 and #3.",
                 }
